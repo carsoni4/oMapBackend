@@ -55,8 +55,11 @@ TemporaryDependencyNodeTargetIdentifier=net10.0
 /warnaserror+:NU1605,SYSLIB0011
 
 [sourceFiles]
-Controllers/OfficesController.cs
+Controllers/
+ DevicesController.cs
+ OfficesController.cs
 Data/AppDbContext.cs
+DTO/UpdateDeviceDto.cs
 Migrations/
  20260515195111_initial.cs
  20260515195111_initial.Designer.cs

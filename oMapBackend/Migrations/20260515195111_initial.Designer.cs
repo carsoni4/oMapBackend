@@ -12,7 +12,10 @@ namespace oMapBackend.Migrations
 {
     [DbContext(typeof(AppDbContext))]
     [Migration("20260515195111_initial")]
+    //This Doesnt Matter
+    #pragma warning disable
     partial class initial
+    #pragma warning restore
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

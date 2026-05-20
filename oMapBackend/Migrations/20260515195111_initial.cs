@@ -6,7 +6,10 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace oMapBackend.Migrations
 {
     /// <inheritdoc />
+    #pragma warning disable 
+    //This Doesn't Matter :)
     public partial class initial : Migration
+    #pragma warning restore
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
