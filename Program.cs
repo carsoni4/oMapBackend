@@ -65,7 +65,7 @@ builder.Services.Configure<IdentityOptions>(options =>
     options.Password.RequireUppercase = false;
     options.Password.RequireNonAlphanumeric = true;
     options.Password.RequiredLength = 6;
-}); //Password Must Contain Number/Symbol/Length>5 (Should probably be higher but this works for now TODO:Decide)
+}); //TODO:Decide  Password Must Contain Number/Symbol/Length>5 (Should probably be higher but this works for now)
 
 var app = builder.Build();
 
