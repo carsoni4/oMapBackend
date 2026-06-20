@@ -1,6 +1,0 @@
-@oMapBackend_HostAddress = http://localhost:5230
-
-GET {{oMapBackend_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
