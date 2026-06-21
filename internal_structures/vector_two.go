@@ -1,7 +1,8 @@
 package internalstructures
 
 type Vector2 struct {
-	X, Y int
+	X int `json:"x"`
+	Y int `json:"y"`
 }
 
 func (v Vector2) AddVectors(other Vector2) Vector2 {
