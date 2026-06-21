@@ -27,6 +27,7 @@ func main() {
 
 	http.HandleFunc("/health", healthHandler)
 	http.HandleFunc("/user", handlers.GetUserHandler)
+	http.HandleFunc("/device", handlers.GetDeviceHandler)
 
 	log.Println("Server running on http://localhost:8080")
 	log.Fatal(http.ListenAndServe(":8080", nil))
